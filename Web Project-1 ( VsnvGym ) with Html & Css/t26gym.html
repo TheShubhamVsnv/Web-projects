@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymWebsite</title>
+    <link rel="stylesheet" href="css/gym.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(gym2.jpg);
+            background-repeat: no-repeat;
+            background-size: 1350px 870px;
+            margin: 0px;
+            padding: 0px;
+            /* font-family: 'Bangers', cursive; */
+            font-family: 'Anton', sans-serif;
+            color: rgb(187 176 18);
+
+        }
+
+        .left {
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid red; */
+
+
+        }
+
+        .left img {
+            width: 136px;
+        }
+
+        .left div {
+            line-height: 35px;
+            font-size: 26px;
+            text-align: center;
+
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 12px auto;
+            /* border: 2px solid red; */
+        }
+
+        .right {
+
+            position: absolute;
+            right: 24px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid red; */
+        }
+
+        .nevbar {
+            display: inline-block;
+
+        }
+
+        .nevbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .nevbar li a {
+            color: rgb(187 176 18);
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .nevbar li a:hover,
+        .nevbar li a .active {
+            text-decoration: underline;
+            color: white;
+
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: rgb(187 176 18);
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            /* font-family: 'Bangers', cursive; */
+            font-family: 'Anton', sans-serif;
+        }
+
+        .btn:hover {
+            color: white;
+        }
+
+        .container {
+
+            border: 1px solid white;
+        margin: 146px 69px;
+        padding: 75px;
+        width: 30%;
+        border-radius: 28px;
+        }
+        .form-group input{
+
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 398px;
+        padding: 1px;
+        border: 2px solid #ce141400;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+
+        .container button{
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+ 
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>Vsnv Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="nevbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About us</a> </li>
+                <li> <a href="#">Fitness calculater</a> </li>
+                <li> <a href="#">Contact us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn  ">Call Us Now</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join Best Gym for Anjali di </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your City Name">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
